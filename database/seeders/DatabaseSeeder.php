@@ -18,7 +18,6 @@ class DatabaseSeeder extends Seeder
             'name' => 'Admin',
             'email' => 'bintihabibatus@gmail.com',
             'password' => Hash::make('12345678'),
-            'is_admin' => true, // Jika kamu punya kolom is_admin
         ]);
 
         // Jika kamu ingin buat user biasa (opsional)
